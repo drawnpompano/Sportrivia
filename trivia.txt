@@ -1,0 +1,6 @@
+Basketball	How many points is a free throw worth?	1
+Basketball	Which city do the Lakers play in?	Los Angeles
+Football	How many points is a touchdown worth?	6
+Football	Which team won the first ever Super Bowl?	Green Bay Packers
+Baseball	How many strikes until a batter is out?	3
+Baseball	What is the name of the Boston Red Sox stadium?	Fenway Park

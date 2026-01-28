@@ -54,3 +54,11 @@ button:hover { background: #ff4d6d; }
 .answer-btn.wrong { background: #dc3545 !important; }
 
 .hidden { display: none; }
+
+.feedback-msg {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.correct-msg { background-color: #28a745; color: white; }
+.wrong-msg { background-color: #dc3545; color: white; }

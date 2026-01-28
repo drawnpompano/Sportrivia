@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Sports Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div id="setup-screen">
+            <h1>🏆 Sports Trivia</h1>
+            <div class="form-group">
+                <label>Select Category:</label>
+                <select id="category-select">
+                    <option value="all">Mixed Sports (Random)</option>
+                    <option value="Basketball">Basketball</option>
+                    <option value="Soccer">Soccer</option>
+                    <option value="Baseball">Baseball</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Number of Questions:</label>
+                <input type="number" id="question-count" value="3" min="1" max="5">
+            </div>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div id="progress">Question 1 of X</div>
+            <h2 id="question-text">Question goes here?</h2>
+            <div id="answer-buttons" class="btn-grid">
+                </div>
+            <button id="next-btn" class="hidden">Next Question</button>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2>Quiz Finished!</h2>
+            <p id="score-text">You scored 0/0</p>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
